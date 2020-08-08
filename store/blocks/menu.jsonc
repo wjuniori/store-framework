@@ -1,9 +1,9 @@
 {
   "vtex.menu@2.x:menu#categories": {
     "children": [
-      "menu-item#major-appliances",
-      "menu-item#small-appliances",
-      "menu-item#electronics"
+      "vtex.menu@2.x:menu-item#major-appliances",
+      "vtex.menu@2.x:menu-item#small-appliances",
+      "vtex.menu@2.x:menu-item#electronics"
     ],
     "props": {
       "orientation": "horizontal"
