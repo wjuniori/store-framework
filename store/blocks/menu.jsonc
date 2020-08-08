@@ -1,16 +1,16 @@
 {
   "vtex.menu@2.x:menu#categories": {
     "children": [
-      "vtex.menu@2.x:menu-item#major-appliances",
-      "vtex.menu@2.x:menu-item#small-appliances",
-      "vtex.menu@2.x:menu-item#electronics"
+      "menu-item#major-appliances",
+      "menu-item#small-appliances",
+      "menu-item#electronics"
     ],
     "props": {
       "orientation": "horizontal"
     }
   },
-  "vtex.menu@2.x:menu-item#major-appliances": {
-    "children": ["vtex.menu@2.x:submenu#major"]
+  "menu-item#major-appliances": {
+    "blocks": ["vtex.menu@2.x:submenu#major"]
   },
   "vtex.menu@2.x:submenu#major": {
     "children": ["vtex.menu@2.x:menu#major"]
@@ -25,8 +25,8 @@
       "orientation": "vertical"
     }
   },
-  "vtex.menu@2.x:menu-item#small-appliances": {
-    "children": ["vtex.menu@2.x:submenu#small"]
+  "menu-item#small-appliances": {
+    "blocks": ["vtex.menu@2.x:submenu#small"]
   },
   "vtex.menu@2.x:submenu#small": {
     "children": ["vtex.menu@2.x:menu#small"]
@@ -37,8 +37,8 @@
       "orientation": "vertical"
     }
   },
-  "vtex.menu@2.x:menu-item#electronics": {
-    "children": ["vtex.menu@2.x:submenu#electronics"]
+  "menu-item#electronics": {
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
   "vtex.menu@2.x:submenu#electronics": {
     "children": ["vtex.menu@2.x:menu#electronics"]
